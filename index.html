@@ -1,0 +1,101 @@
+<html>
+<head>
+	
+  <!-- 
+  IMPORTANT:
+  You need to insert the address for your mixer in all the iframes below. To do this, replace all occurrences of this text:
+  http://sc-mixer.int/mixer.html
+  
+  ..with your mixer's address. I.e.:
+  http://192.168.1.25/mixer.html
+  -->
+  
+	<!-- Latest compiled and minified CSS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	
+	<!-- Optional theme -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+	
+	<!-- Latest compiled and minified JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	
+	<style type="text/css">
+	html{
+	  height:100%;
+	  max-width: 100%;
+    overflow-x: hidden;
+	}
+	body{
+	  height:100%;
+	}
+	.intro{
+	  height:50%;
+	}
+	
+	.left{
+	  display : flex;
+	  justify-content : center;
+	  align-items : center;
+	  background-color:#3d231b;
+	  height : 100%;
+	  color : #FFF;
+	  margin: 0px;
+	  padding: 0px;
+	
+	}
+	.right{
+	  display : flex;
+	  justify-content : center;
+	  align-items : center;
+	  background-color:#FFF;
+	  height : 100%;
+	  color : #3d231b;
+	  margin: 0px;
+	  padding: 0px;
+	}
+	@media (max-width: 1200px) { 
+	  .left{
+	    height:50%;
+	  }
+	  .right{
+	    height:50%;
+	  }
+	}
+	.about{
+	  display : flex;
+	  justify-content : center;
+	  align-items : center;
+	  background-color:#000;
+	  color : #FFF;
+	  height:100%;
+	}
+	</style>
+	
+</head>
+
+<body>
+	
+  <!-- SECTION 1 (upper half) -->
+  <section class="intro">
+		<div class="row">
+			<div class="col-lg-6 col-sm-12 left">
+			    <iframe style="height: 100%; width: 100%;" src="http://sc-mixer.int/mixer.html"></iframe>
+			</div>
+			
+			<div class="col-lg-6 col-sm-12 left">
+			    <iframe style="height: 100%; width: 100%;" src="http://sc-mixer.int/mixer.html"></iframe>
+			</div>
+		</div> <!-- row -->
+	</section> 
+	
+  <!-- SECTION 2 (lower half) -->
+	<section class="intro">
+		<div class="row">
+			<div class="col-lg-12 col-sm-12">
+			    <iframe style="height: 100%; width: 100%;" src="http://sc-mixer.int/mixer.html"></iframe>
+			</div>
+		</div>
+	</section>
+
+</body>
+</html>
